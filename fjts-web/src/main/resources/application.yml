@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: fjts
+  security:
+    user:
+      name: feizhijie
+      password: 123456
+      roles: admin
+  thymeleaf:
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    cache: false
