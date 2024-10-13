@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2024/10/12
  */
 @Controller
-@RequestMapping("/test")
 public class ExampleController {
     @GetMapping("/greeting")
     public String greeting(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
